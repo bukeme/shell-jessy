@@ -9,5 +9,5 @@ int main(void)
 
 	ppid = getppid();
 	printf("The sum is: %d\n", a + b);
-	printf("The parent process id is: %u", ppid);
+	printf("The parent process id is: %u\n", ppid);
 }

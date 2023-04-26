@@ -7,6 +7,6 @@ int main(void)
 	pid_t ppid;
 
 	ppid = getppid();
-	printf("The difference is: ", a - b);
-	printf("The parent process id is: ", ppid);
+	printf("The difference is: %d\n", a - b);
+	printf("The parent process id is: %u\n", ppid);
 }
